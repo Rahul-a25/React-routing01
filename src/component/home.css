@@ -1,0 +1,81 @@
+.navsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content ul{
+    display: flex;  
+  list-style-type: none;
+
+}
+.content ul li{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.btn button{
+    padding: 15px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #596AFF;
+    color: white;
+    font-weight: 500;
+}
+.btn button:hover{
+    background-color: white;
+    color: #244886;
+}
+main .leftmain{
+    width: 50%;
+    height: 100%;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+    align-items: center;
+}
+.leftmain  p{
+    font-size: 20px;
+    margin-left: 150px;
+    
+}
+main .leftmain .uper{
+    font-size: 280%;
+    font-weight: bold;
+    color: #596AFF;
+}
+main .leftmain .lower{
+    line-height: 2.2;
+    margin-bottom: 40px
+}
+main .rightmain{
+    width: 50%;
+   
+}
+main .leftmain .thirdlower{
+    margin-left: 150px
+}
+main .leftmain .thirdlower button {
+    padding: 15px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #596AFF;
+    color: white;
+    font-weight: 500;
+}
+main .leftmain .thirdlower .hide{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+
+}
+main .leftmain .thirdlower .icon{
+    
+    margin: 0px 10px;
+    font-size: 18px;
+}
