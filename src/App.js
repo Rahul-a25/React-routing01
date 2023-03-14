@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path='/' element={<Home/>} />
+      <Route exact path='/React-routing01' element={<Home/>} />
       <Route path='About' element={<About/>} />
       <Route path='Contact' element={<Contact/>} />
       <Route path='Project' element={<Project/>} />
@@ -21,7 +21,7 @@ function App() {
       <Route path='*' element={<><h1>No Pages</h1></>} />
 
    </Routes>
-   <Outlet/>
+   
    
    </> 
   );
