@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
+
 import { MdMail ,MdLocalPhone} from "react-icons/md";
 import "./contact.css";
 const Contact = () => {
   return (
     <>
-    <Navbar />
+    
     <div>
     <main style={{width:"100%"}}>
       <div style={{width:"40%",marginLeft:"100px"}} className='left'>

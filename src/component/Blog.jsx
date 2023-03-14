@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar'
+
 const Blog = () => {
   return (
     <>
-    <Navbar/>
+  
     <div>
       <h1>Blog</h1>
       <h1 style={{fontSize:"100px"}}>Looking for a MEP Contractor in Dubai?</h1>

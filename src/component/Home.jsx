@@ -2,11 +2,11 @@ import React from 'react'
 import "./home.css"
 import { FaPlayCircle } from "react-icons/fa";
 import { Outlet, NavLink } from "react-router-dom";
-import Navbar from './Navbar';
+
 const Home = () => {
   return (
     <>
-    <Navbar/>
+   
      <main style={{width:"100%"}}>
          <div className="leftmain">
            <p className='uper'>
