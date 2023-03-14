@@ -26,7 +26,8 @@ const Home = () => {
          </div>
 
          <div className="rightmain">
-           <img width={700} height={400} src="https://media.istockphoto.com/id/1074286356/photo/staying-late-for-a-video-conference.jpg?s=612x612&w=0&k=20&c=LSYqYc96rZ0Cignutff8hlgi8pVUCWHr0f4GnzOVMqU=" alt="" />
+           <img width={700} height={400} src="https://www.urbansciencemep.com/_next/static/images/banner-thumb-ce9763d5a9793e4688afdc229399007a.png" alt="" />
+          
          </div>
      </main>
     </>

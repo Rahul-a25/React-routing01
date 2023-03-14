@@ -12,3 +12,14 @@
 /* .content ul li {
  list-style-type: none;
 } */
+.btn{
+   
+    display: flex;
+    flex-direction: column;
+}
+.navsection {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    padding: 10px;
+}
