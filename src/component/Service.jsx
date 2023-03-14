@@ -1,10 +1,14 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Service = () => {
   return (
-    <div>
-      <h1>Service </h1>
+    <>
+    <Navbar/>
+    <div style={{textAlign:"center"}}>
+        <h1>I am Services</h1>
     </div>
+    </>
   )
 }
 

@@ -2,41 +2,11 @@ import React from 'react'
 import "./home.css"
 import { FaPlayCircle } from "react-icons/fa";
 import { Outlet, NavLink } from "react-router-dom";
+import Navbar from './Navbar';
 const Home = () => {
   return (
     <>
-   
-     <header className='navsection'>
-        <div className="same logo">
-            <img width={125} height={75} src="https://www.urbansciencemep.com/_next/static/images/blackLogo-10fc2f582f155efcc2c792a97edc1f33.png" alt="" />
-        </div>
-        <div className="same content">
-          <ul>
-            <li>
-             <NavLink to="/">Home</NavLink> </li>
-            <li>
-            <NavLink to="/about">About</NavLink>
-               </li>
-            <li>
-            <NavLink to="/project">Project</NavLink>
-              </li>
-            <li>
-            <NavLink to="/Service"> Services</NavLink>
-             </li>
-            <li>
-            <NavLink to="/Blog"> Blog </NavLink>
-             </li>
-            <li>
-            <NavLink to="/Contact">Contact</NavLink>
-              </li>
-          </ul>
-      <Outlet/>
-        </div>
-        <div className="same btn">
-          <button>Enquire Now</button>
-        </div>
-     </header> 
-
+    <Navbar/>
      <main style={{width:"100%"}}>
          <div className="leftmain">
            <p className='uper'>

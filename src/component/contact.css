@@ -1,0 +1,42 @@
+.right{
+    margin-top: 30px;
+}
+.left{
+    margin-bottom: 100px;
+}
+.left h1,h2{
+    color: #244886;
+    font-weight: 500;
+}
+.left h1,h2,p{
+    font-weight:500 ;
+}
+
+.right form input,select{
+    box-sizing: border-box;
+    margin: 0px 0px 15px;
+    min-width: 0px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    appearance: none;
+    font-size: inherit;
+    line-height: inherit;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 8px;
+    height: 60px
+}
+.right label{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    color: #343D48;
+    /* display: flex; */
+    font-size: 15px;
+    font-weight: 700;
+}
