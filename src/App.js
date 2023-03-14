@@ -14,13 +14,13 @@ function App() {
     <>
     <Navbar/>
     <Routes>
-      <Route  path='/' element={<Home/>} />
+      <Route  path='*' element={<Home/>} />
       <Route path='About' element={<About/>} />
       <Route path='Contact' element={<Contact/>} />
       <Route path='Project' element={<Project/>} />
       <Route path='Service' element={<Service/>} />
       <Route path='Blog' element={<Blog/>} />
-      <Route path='*' element={<><h1>No Pages</h1></>} />
+      {/* <Route path='*' element={<><h1>No Pages</h1></>} /> */}
 
    </Routes>
    </> 
